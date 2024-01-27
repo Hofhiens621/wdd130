@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Open index.html",
-            "file": "/Users/jacobhofhiens/Library/Mobile Documents/com~apple~CloudDocs/2024winter/wdd130/Week 1/index.html"
+            "file": "/Users/jacobhofhiens/Library/Mobile Documents/com~apple~CloudDocs/2024winter/wdd130/index.html"
         }
     ]
 }
