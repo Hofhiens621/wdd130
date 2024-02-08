@@ -1,0 +1,46 @@
+body {
+    background-color: beige;
+    font-size: 100%;
+}
+
+header{
+    background-color: #719580;
+}
+
+h1 {
+    font-size: 5em;
+    margin: 0 auto;
+    width: 100px;
+}
+/* em adjusts font size times parent */
+
+h4 {
+    font-size: 0.5em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #1a1819;
+    font-family: Courier;
+}
+
+img.logo {
+    width: 100px;
+}
+
+#hero-img {
+    width: 100%;
+}
+
+div.social img {
+    width: 80px;
+}
+
+img.card-img {
+    /* display: block;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto; */
+
+    margin: 0 auto;
+}
