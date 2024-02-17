@@ -1,16 +1,73 @@
+/* Color scheme:
+Blue: #5775a1
+Green: #719580
+Brown: #b68877
+White: #f1f1f1
+Grey: #867b70
+Black: #1a1819
+*/
+
 body {
-    background-color: beige;
+    background-color: #f1f1f1;
     font-size: 100%;
 }
 
-header{
+#content {
+max-width: 1600px;
+margin: 0 auto;
+}
+
+nav a, #hero-msg h1, #hero-msg h4, .button-box, main section {
+    text-align: center;
+    color: #1a1819;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: #5775a1;
+    background-color: #f1f1f1;
+}
+
+nav a, a#logo_link {
+    background: #719580;
+}
+
+header {
+    background-color: #719580;
+}
+
+nav a:hover {
+    background-color: #867b70;
+}
+
+a:hover {
+    background-color: #719580;
+}
+
+.book {
+    background-color: #719580;
+    color: #1a1819;
+}
+
+.book:hover {
+    background-color: #719580;
+}
+
+.join:hover {
+    background-color: #719580;
+}
+
+
+#background {
+    height: 725px;
     background-color: #719580;
 }
 
 h1 {
     font-size: 5em;
     margin: 0 auto;
-    width: 100px;
+    width: 500px;
 }
 /* em adjusts font size times parent */
 
@@ -22,6 +79,18 @@ h1, h2, h3, h4, h5, h6 {
     color: #1a1819;
     font-family: Courier;
 }
+
+footer {
+    background-color: #867b70;
+}
+
+footer p {
+    font-size: 1.2em;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}    
 
 img.logo {
     width: 100px;
@@ -35,12 +104,36 @@ div.social img {
     width: 80px;
 }
 
+#mountains {
+    height: 725px;
+    
+}
+
 img.card-img {
     /* display: block;
     margin-top: 0;
     margin-bottom: 0;
     margin-left: auto;
     margin-right: auto; */
-
+    
     margin: 0 auto;
+}
+
+.msg p {
+    background-color: #867b70;
+    color: #f1f1f1;
+}
+
+.msg h2 {
+    background-color: #867b70;
+    color: #f1f1f1;
+}
+
+.msg {
+    background-color: #867b70;
+}
+
+
+.icon {
+    width: 80px;
 }
