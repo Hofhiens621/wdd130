@@ -4,7 +4,7 @@
   /* This is the parent of the activity 1 boxes. */
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 100px 200px 200px 100px;
   justify-items: center;
   gap: 20px;
 }
@@ -154,8 +154,8 @@
   background-color: red; 
 } 
 .green5 { 
-  width: 230px; 
-  height: 230px; 
+  width: 200px; 
+  height: 200px; 
   background-color: green; 
   float: left;
 } 
@@ -217,7 +217,8 @@
 .activity {
   width: 70%; 
   margin: 20px auto; 
-  font-family: Arial, sans-serif; 
+  font-family: 'Times New Roman', Times, serif; 
+  font-size: 17px;
   border: 1px solid black; 
   padding: 10px; 
   clear:both; 
