@@ -304,6 +304,7 @@ div.social a {
     grid-column: 1/2;
     grid-row: 1/3;
     width: 35vw;
+    max-width: 600px;
 }
 .river-title {
     grid-column: 2/3;
